@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/xampp/htdocs/colombo_pitza_http"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "f:\\My_Project\\Flutter_Development\\colombo_pitza"
+	}
+}
