@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:colombo_pitza/config/app_api.dart';
+import 'package:restaurant_manager/config/app_api.dart';
 
 class CategoryModel extends Equatable {
   final String title;

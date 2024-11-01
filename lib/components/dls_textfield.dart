@@ -9,14 +9,13 @@ class DlsTextfield extends StatelessWidget {
   final TextInputType type;
 
   const DlsTextfield(
-      {Key? key,
+      {super.key,
       this.ctrl,
       required this.title,
       required this.hint,
       required this.icon,
       required this.type,
-      required this.isMask})
-      : super(key: key);
+      required this.isMask});
 
   @override
   Widget build(BuildContext context) {

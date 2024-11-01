@@ -1,5 +1,5 @@
-import 'package:colombo_pitza/config/app_route.dart';
-import 'package:colombo_pitza/view/splash_view.dart';
+import 'package:restaurant_manager/config/app_route.dart';
+import 'package:restaurant_manager/view/splash_view.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
@@ -7,7 +7,7 @@ Future<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override

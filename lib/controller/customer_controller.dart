@@ -1,4 +1,4 @@
-import 'package:colombo_pitza/model/customer_model.dart';
+import 'package:restaurant_manager/model/customer_model.dart';
 import 'package:http/http.dart' as http;
 
 class CustomerController {

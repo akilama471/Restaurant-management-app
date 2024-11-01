@@ -1,11 +1,11 @@
-import 'package:colombo_pitza/components/dls_productcard.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_productcard.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class ProductCarousel extends StatelessWidget {
   final List<ProductModel> products;
 
-  const ProductCarousel({Key? key, required this.products}) : super(key: key);
+  const ProductCarousel({super.key, required this.products});
 
   @override
   Widget build(BuildContext context) {

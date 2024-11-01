@@ -1,7 +1,7 @@
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/components/dls_productcard.dart';
-import 'package:colombo_pitza/model/category_model.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/components/dls_productcard.dart';
+import 'package:restaurant_manager/model/category_model.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class CatalogView extends StatelessWidget {
@@ -15,7 +15,7 @@ class CatalogView extends StatelessWidget {
 
   final CategoryModel category;
 
-  const CatalogView({Key? key, required this.category}) : super(key: key);
+  const CatalogView({super.key, required this.category});
 
   @override
   Widget build(BuildContext context) {

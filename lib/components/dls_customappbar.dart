@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double appbarHeight;
   final String title;
   final PreferredSizeWidget? bottomBar;
 
   CustomAppBar(
-      {Key? key,
+      {super.key,
       required this.appbarHeight,
       required this.title,
-      this.bottomBar})
-      : super(key: key);
+      this.bottomBar});
 
   //@override
   // Widget FocusMenuIcon(BuildContext context) => FocusedMenuHolder(

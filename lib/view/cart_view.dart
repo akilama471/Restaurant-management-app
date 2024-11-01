@@ -1,7 +1,7 @@
-import 'package:colombo_pitza/components/dls_actionbtn.dart';
-import 'package:colombo_pitza/components/dls_cartproductcard.dart';
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_actionbtn.dart';
+import 'package:restaurant_manager/components/dls_cartproductcard.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class CartView extends StatelessWidget {
@@ -14,8 +14,8 @@ class CartView extends StatelessWidget {
   }
 
   const CartView({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,7 @@ class CartView extends StatelessWidget {
                     Navigator.pushNamed(context, '/');
                   },
                   style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       shape: const RoundedRectangleBorder(),
                       elevation: 0),
                   child: const Text('Add More Items'))

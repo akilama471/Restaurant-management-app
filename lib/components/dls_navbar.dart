@@ -4,8 +4,7 @@ class DlsNavbar extends StatelessWidget {
   final List<PopupMenuEntry> menuList;
   final Widget icon;
 
-  const DlsNavbar({Key? key, required this.menuList, required this.icon})
-      : super(key: key);
+  const DlsNavbar({super.key, required this.menuList, required this.icon});
 
   @override
   Widget build(BuildContext context) {

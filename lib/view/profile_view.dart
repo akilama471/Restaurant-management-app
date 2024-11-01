@@ -1,6 +1,6 @@
-import 'package:colombo_pitza/components/dls_actionbtn.dart';
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/components/dls_textfield.dart';
+import 'package:restaurant_manager/components/dls_actionbtn.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/components/dls_textfield.dart';
 import 'package:flutter/material.dart';
 
 class ProfileView extends StatelessWidget {
@@ -13,8 +13,8 @@ class ProfileView extends StatelessWidget {
   }
 
   const ProfileView({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -36,59 +36,59 @@ class ProfileView extends StatelessWidget {
           ),
           body: TabBarView(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Column(children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [
+                    children: [
                       Text('Your Orders hear...'),
                     ],
                   ),
-                  const Divider(
+                  Divider(
                     thickness: 1,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
+                    padding: EdgeInsets.only(bottom: 8.0),
                     child: Row(
                       children: [
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('ID 14590'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Wariyapola Btanch'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Deliverd'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.done,
                                   color: Colors.green,
@@ -99,43 +99,43 @@ class ProfileView extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
+                    padding: EdgeInsets.only(bottom: 8.0),
                     child: Row(
                       children: [
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('ID 14790'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Wariyapola Btanch'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Order Cancelled'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.wrong_location,
                                   color: Colors.red,
@@ -146,43 +146,43 @@ class ProfileView extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
+                    padding: EdgeInsets.only(bottom: 8.0),
                     child: Row(
                       children: [
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('ID 14890'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Wariyapola Btanch'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Deliverd'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.done,
                                   color: Colors.green,
@@ -193,43 +193,43 @@ class ProfileView extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
+                    padding: EdgeInsets.only(bottom: 8.0),
                     child: Row(
                       children: [
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('ID 14990'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Wariyapola Btanch'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text('Cannceld'),
                               ]),
                         ),
-                        const SizedBox(
+                        SizedBox(
                           width: 10,
                         ),
                         Expanded(
                           child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.close,
                                   color: Colors.red,
@@ -281,74 +281,74 @@ class ProfileView extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Column(
                   children: [
                     Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
+                        padding: EdgeInsets.only(bottom: 8),
                         child: Column(
                           children: [
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
                             Row(
-                              children: const [
+                              children: [
                                 Expanded(child: Icon(Icons.home)),
                                 Expanded(child: Text('Home Address')),
                                 Expanded(child: Icon(Icons.edit)),
                               ],
                             ),
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
-                            const Text('No 35,'),
-                            const Text('Pola Para,'),
-                            const Text('Maspotha.'),
+                            Text('No 35,'),
+                            Text('Pola Para,'),
+                            Text('Maspotha.'),
                           ],
                         )),
                     Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
+                        padding: EdgeInsets.only(bottom: 8),
                         child: Column(
                           children: [
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
                             Row(
-                              children: const [
+                              children: [
                                 Expanded(child: Icon(Icons.home)),
                                 Expanded(child: Text('Home Address')),
                                 Expanded(child: Icon(Icons.edit)),
                               ],
                             ),
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
-                            const Text('Palliya Asala,'),
-                            const Text('Pallandeniya.'),
+                            Text('Palliya Asala,'),
+                            Text('Pallandeniya.'),
                           ],
                         )),
                     Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
+                        padding: EdgeInsets.only(bottom: 8),
                         child: Column(
                           children: [
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
                             Row(
-                              children: const [
+                              children: [
                                 Expanded(child: Icon(Icons.work)),
                                 Expanded(child: Text('Work Address')),
                                 Expanded(child: Icon(Icons.edit)),
                               ],
                             ),
-                            const Divider(
+                            Divider(
                               thickness: 1,
                             ),
-                            const Text('No 65,'),
-                            const Text('First Floor,'),
-                            const Text('New Shopping Mall,'),
-                            const Text('Pallandeniya'),
+                            Text('No 65,'),
+                            Text('First Floor,'),
+                            Text('New Shopping Mall,'),
+                            Text('Pallandeniya'),
                           ],
                         ))
                   ],

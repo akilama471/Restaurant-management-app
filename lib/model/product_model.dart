@@ -1,4 +1,4 @@
-import 'package:colombo_pitza/config/app_api.dart';
+import 'package:restaurant_manager/config/app_api.dart';
 import 'package:equatable/equatable.dart';
 
 class ProductModel extends Equatable {

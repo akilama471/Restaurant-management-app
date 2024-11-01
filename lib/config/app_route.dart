@@ -1,11 +1,11 @@
-import 'package:colombo_pitza/model/category_model.dart';
-import 'package:colombo_pitza/model/product_model.dart';
-import 'package:colombo_pitza/view/admin_view.dart';
-import 'package:colombo_pitza/view/cart_view.dart';
-import 'package:colombo_pitza/view/catalog_view.dart';
-import 'package:colombo_pitza/view/main_view.dart';
-import 'package:colombo_pitza/view/product_view.dart';
-import 'package:colombo_pitza/view/profile_view.dart';
+import 'package:restaurant_manager/model/category_model.dart';
+import 'package:restaurant_manager/model/product_model.dart';
+import 'package:restaurant_manager/view/admin_view.dart';
+import 'package:restaurant_manager/view/cart_view.dart';
+import 'package:restaurant_manager/view/catalog_view.dart';
+import 'package:restaurant_manager/view/main_view.dart';
+import 'package:restaurant_manager/view/product_view.dart';
+import 'package:restaurant_manager/view/profile_view.dart';
 import 'package:flutter/material.dart';
 
 class AppRoute {

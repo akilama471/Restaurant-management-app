@@ -1,16 +1,16 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/components/dls_headingtitle.dart';
-import 'package:colombo_pitza/components/dls_herocarouselcard.dart';
-import 'package:colombo_pitza/components/dls_productcarousel.dart';
-import 'package:colombo_pitza/model/category_model.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/components/dls_headingtitle.dart';
+import 'package:restaurant_manager/components/dls_herocarouselcard.dart';
+import 'package:restaurant_manager/components/dls_productcarousel.dart';
+import 'package:restaurant_manager/model/category_model.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class MainView extends StatelessWidget {
   static const String routeName = '/';
 
-  const MainView({Key? key}) : super(key: key);
+  const MainView({super.key});
 
   static Route route() {
     return MaterialPageRoute(

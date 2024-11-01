@@ -1,6 +1,6 @@
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/components/dls_herocarouselcard.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/components/dls_herocarouselcard.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class ProductView extends StatelessWidget {
@@ -14,7 +14,7 @@ class ProductView extends StatelessWidget {
 
   final ProductModel product;
 
-  const ProductView({Key? key, required this.product}) : super(key: key);
+  const ProductView({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

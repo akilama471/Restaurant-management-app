@@ -1,15 +1,15 @@
 import 'dart:convert';
 
-import 'package:colombo_pitza/components/dls_actionbtn.dart';
-import 'package:colombo_pitza/components/dls_textfield.dart';
+import 'package:restaurant_manager/components/dls_actionbtn.dart';
+import 'package:restaurant_manager/components/dls_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
-import 'package:colombo_pitza/view/login_view.dart';
+import 'package:restaurant_manager/view/login_view.dart';
 
 class RegisterView extends StatefulWidget {
-  const RegisterView({Key? key}) : super(key: key);
+  const RegisterView({super.key});
 
   @override
   RegisterViewState createState() => RegisterViewState();

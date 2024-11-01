@@ -7,13 +7,12 @@ class DlsActionbtn extends StatelessWidget {
   final Color backColr;
   final Color foreColr;
   const DlsActionbtn(
-      {Key? key,
+      {super.key,
       required this.title,
       required this.onPressAction,
       this.width,
       this.backColr = Colors.white,
-      this.foreColr = Colors.red})
-      : super(key: key);
+      this.foreColr = Colors.red});
 
   @override
   Widget build(BuildContext context) {
@@ -23,9 +22,9 @@ class DlsActionbtn extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () => onPressAction,
           style: ButtonStyle(
-              foregroundColor: MaterialStateProperty.all<Color>(foreColr),
-              backgroundColor: MaterialStateProperty.all<Color>(backColr),
-              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+              foregroundColor: WidgetStateProperty.all<Color>(foreColr),
+              backgroundColor: WidgetStateProperty.all<Color>(backColr),
+              shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                   RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(24),
               ))),

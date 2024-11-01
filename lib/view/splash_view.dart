@@ -1,9 +1,9 @@
-import 'package:colombo_pitza/view/login_view.dart';
+import 'package:restaurant_manager/view/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SplashView extends StatefulWidget {
-  const SplashView({Key? key}) : super(key: key);
+  const SplashView({super.key});
 
   @override
   SplashViewState createState() => SplashViewState();

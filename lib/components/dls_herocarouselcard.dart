@@ -1,13 +1,12 @@
-import 'package:colombo_pitza/model/category_model.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/model/category_model.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class DlsHeroCarouselCard extends StatelessWidget {
   final CategoryModel? category;
   final ProductModel? product;
 
-  const DlsHeroCarouselCard({Key? key, this.category, this.product})
-      : super(key: key);
+  const DlsHeroCarouselCard({super.key, this.category, this.product});
 
   @override
   Widget build(BuildContext context) {

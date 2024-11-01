@@ -1,12 +1,12 @@
-import 'package:colombo_pitza/components/dls_textfield.dart';
-import 'package:colombo_pitza/view/main_view.dart';
-import 'package:colombo_pitza/view/register_view.dart';
+import 'package:restaurant_manager/components/dls_textfield.dart';
+import 'package:restaurant_manager/view/main_view.dart';
+import 'package:restaurant_manager/view/register_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginView extends StatefulWidget {
-  const LoginView({Key? key}) : super(key: key);
+  const LoginView({super.key});
 
   @override
   LoginViewState createState() => LoginViewState();
@@ -150,9 +150,9 @@ class LoginViewState extends State<LoginView> {
               MaterialPageRoute(builder: (context) => const MainView())),
           style: ButtonStyle(
               foregroundColor:
-                  MaterialStateProperty.all<Color>(const Color(0xfff44336)),
-              backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
-              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  WidgetStateProperty.all<Color>(const Color(0xfff44336)),
+              backgroundColor: WidgetStateProperty.all<Color>(Colors.white),
+              shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                   RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(24),
               ))),

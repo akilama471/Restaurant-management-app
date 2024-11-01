@@ -1,8 +1,8 @@
-import 'package:colombo_pitza/components/dls_actionbtn.dart';
-import 'package:colombo_pitza/components/dls_adminproduct.dart';
-import 'package:colombo_pitza/components/dls_customappbar.dart';
-import 'package:colombo_pitza/components/dls_textfield.dart';
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/components/dls_actionbtn.dart';
+import 'package:restaurant_manager/components/dls_adminproduct.dart';
+import 'package:restaurant_manager/components/dls_customappbar.dart';
+import 'package:restaurant_manager/components/dls_textfield.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class AdminView extends StatelessWidget {
@@ -15,8 +15,8 @@ class AdminView extends StatelessWidget {
   }
 
   const AdminView({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -88,16 +88,16 @@ class AdminView extends StatelessWidget {
                   ]),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Column(
-                  children: const [],
+                  children: [],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: Column(
-                  children: const [],
+                  children: [],
                 ),
               )
             ],

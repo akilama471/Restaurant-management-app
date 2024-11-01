@@ -1,10 +1,10 @@
-import 'package:colombo_pitza/model/product_model.dart';
+import 'package:restaurant_manager/model/product_model.dart';
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {
   final ProductModel product;
 
-  const ProductCard({Key? key, required this.product}) : super(key: key);
+  const ProductCard({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
